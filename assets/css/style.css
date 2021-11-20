@@ -101,7 +101,17 @@ body {
     transform: translateY(100px);
     opacity: 0;
     transition: .5s;
+    position: relative;
+    
 }
+
+.card .texte_centrer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+  }
 
 .card:hover .content {
     transform: translateY(0px);
